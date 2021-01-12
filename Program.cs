@@ -15,6 +15,8 @@ namespace EmployeeDatabase2
         }
         static void Main(string[] args)
         {
+            DisplayGreeting();
+
             Console.Write("What is your name? ");
             var name = Console.ReadLine();
 
